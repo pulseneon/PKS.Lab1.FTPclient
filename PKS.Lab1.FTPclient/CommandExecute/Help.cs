@@ -12,6 +12,13 @@ namespace PKS.Lab1.FTPclient.CommandExecute
         {
             Console.WriteLine(" help - помощь");
             Console.WriteLine(" disconnect - прервать соединение");
+            Console.WriteLine(" cd - измненить директорию (cd .. - назад)");
+            Console.WriteLine(" ls - список файлов директории");
+            Console.WriteLine(" delete - удалить файл");
+            Console.WriteLine(" move - переименовать");
+            Console.WriteLine(" mkdir - создать директорию");
+            Console.WriteLine(" download - скачать файл");
+            Console.WriteLine(" upload - загрузить файл");
         }
     }
 }
